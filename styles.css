@@ -128,3 +128,74 @@ body::before {
     outline: none;
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.5);
 }
+/* Media Queries for Samsung Phones (screen width ≤ 768px) */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .music-box {
+        max-width: 90%;
+    }
+
+    .download-button {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    .content h2 {
+        font-size: 1.5em;
+    }
+
+    .content p {
+        font-size: 1em;
+    }
+
+    .music-box {
+        max-width: 90%; /* Allow the box to scale */
+    }
+
+    .download-button {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .content h2 {
+        font-size: 1.3em;
+    }
+
+    .content p {
+        font-size: 0.9em;
+    }
+
+   
+}
